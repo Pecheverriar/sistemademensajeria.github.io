@@ -1,0 +1,111 @@
+.container{
+    display:flex;
+    flex: 20%;
+}
+.menu {
+    background-color: var(--color-white);
+    color: var(--color-dark-jungle);
+    display: flex;
+    flex: 20%;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .menuprincipal{
+    display: flex;
+    flex: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    padding-top: 40em;
+    padding-left: 5em;
+    width: 800px;
+  }
+  .menuprincipal img {
+    height: 250px;
+  }
+  .menuprincipal h1 {
+    font-size: 40px;
+    font-weight: 1px;
+    margin: 10px;
+    width: 800px;
+  }
+  .menuprincipal p {
+    font-size: 15px;
+    font-weight: 2px;
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    margin: 10px;
+  }
+  .imagen {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    transition: transform 0.1s;
+  }
+  .primeraimagen{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    padding-top: 2em;
+  }
+  .texto{
+   padding: 1em;
+   line-height: 1px;
+  }
+  body {
+    min-width: 300px; /* Tamaño mínimo en ancho */
+    max-width: 1200px; /* Tamaño máximo en ancho */
+    min-height: 300px; /* Tamaño mínimo en altura */
+    max-height: 600px; /* Tamaño máximo en altura */
+    margin: 0 auto; /* Centrar el contenido horizontalmente */
+  }
+.botones{
+    display: flex;
+}
+.chat{
+    display: flex;
+    padding-top: 2em;
+    align-items: center;
+    padding-left: 1em ;
+}
+.sidebar{
+    padding-left: 1em;
+}
+.nuevochat {
+    background-color:#A491D2;
+    color: white;
+    font-size: 15px;
+    padding: 5px 40px;
+  }
+  .chat{
+   display: flex;
+   padding-left: 2em;
+  }
+  .contacto{
+    padding-top: 2em;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+  }
+  .mensaje{
+   line-height: 2px;
+   padding-left: 1em;
+   text-align: justify;
+  }
+  .navbar{
+    padding-left: 2em;
+  }
+  .imagenprincipal {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    transition: transform 0.1s;
+  }
+  
